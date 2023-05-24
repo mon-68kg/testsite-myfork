@@ -1,0 +1,273 @@
+/*NAVBAR STYLE*/
+.div-separator
+{
+    margin-top: 8px;
+    color: rgb(148, 144, 144);
+    margin-left: .5rem;
+    margin-right: .5rem;
+    font-size: small;
+}
+
+.navbar-brand
+{
+  font-size: 1.5em;
+}
+
+.nav-link:active {
+	color: green !important;
+}
+.nav-link:focus {
+	color: green !important;
+}
+
+.div-breadcrumb 
+{
+  width: 87.6%;
+  height: 2.6rem;
+}
+
+.bg-breadcrumb
+{
+  background-color:rgb(6, 170, 31);
+}
+
+.nav-link
+{
+    font-weight: bold;
+    font-size: small;
+}
+
+.sm-icons {
+    flex-direction: row;
+  }
+  @media only screen and (max-width: 992px) {
+    .sm-icons .nav-item {
+      padding-right: 1em;
+    }
+  }
+
+.navbar
+{
+    width: 88%;
+}
+/*NAVBAR STYLE*/
+
+
+/*CAROUSEL STYLE*/
+
+.bg-img
+    {
+        width: 100%;
+        height: 88vh;
+        overflow: hidden;
+    }
+
+.bg-img img
+    {
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        object-fit: cover;
+        position: absolute;
+        margin-bottom: 20px;  
+    }
+
+.carousel-caption
+{
+    width: 58%;
+    text-align: left;
+    color: #FFFFFF;
+    background: transparent;
+    background-color: rgba(0, 0, 0, 0.616);
+    border-style: solid;
+    border-width: 5px 0 0;
+    border-color: #5cb85c;
+    margin: auto;
+    margin-bottom: 3%;
+    padding: 1%;
+}
+
+.carousel-caption h3
+{
+    font-size: 20px;
+}
+
+.carousel-caption p
+{
+    font-size: 12px;
+}
+/*CAROUSEL STYLE*/ 
+
+
+/*Eum-Ipsam*/
+.div-eum-ipsam
+{
+    width: 88%;
+}
+/*Eum-Ipsam*/
+
+/*contact style*/
+.form-div
+{
+  width: 88%;
+}
+
+/*services style*/
+.services
+{
+    background-color: #f4f6f8;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.div-services
+{
+    width: 86.7%;
+}
+
+.div-card-img-top
+{
+    height: 4rem;
+    width: 4rem;
+    justify-content: center;
+}
+
+.services-card-title 
+{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.div-card-text
+{
+    font-size: 12px;
+}
+/*services style*/
+
+
+/*Portfolio*/
+.portfolio_btn:focus 
+{
+    background-color: green;
+    color: white;
+}
+
+.div-portfolio
+{
+    width: 88%;
+}
+/*Portfolio*/
+
+
+/*client style*/
+  div-client 
+  {
+    width: 86%;
+  }
+
+/*client style*/
+
+
+/*features style*/
+.div-features
+{
+    width: 88%;
+}
+/*client style*/
+
+/*Testimonials style*/
+.testimonials
+{
+    min-height: 35rem;
+    background-color: rgb(250, 249, 249);
+}
+
+
+.div-testimonials
+{
+    width: 86.8%;
+    padding-top: 3%;
+}
+
+/*Testimonials style*/
+
+
+/*about page*/
+.deep_dropdown {
+  padding-left: 7%;
+}
+.hr_about {
+  width: 50px;
+  height: 2px;
+}
+.carousel-indicators .active {
+  background-color: #4BB543;
+}
+.our_team {
+  text-align: center;
+}
+.our_team_div {
+  background-color: rgb(241, 241, 241);
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+
+/*footer style*/
+.text-small {
+    font-size: 1rem;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  
+  a:hover, a:focus {
+    text-decoration: none;
+  }
+  
+  .form-control {
+    background: #ffffff;
+    border-color: #5b5959;
+  }
+  
+  .form-control:focus {
+    background: #ffffff;
+  }
+  
+  footer {
+    background: #1b1c1d;
+  }
+  
+  .div-footer
+  {
+    width: 88%;
+  }
+
+  .footer-div
+  {
+    background-color: #000000;
+  }
+
+  .inside-footer-div
+  {
+    width: 88%;
+  }
+
+  .footer-icons {
+    flex-direction: row;
+  }
+
+  
+  
+  /* ==========================================
+      CUSTOM UTILS CLASSES
+    ========================================== */
+    
+
+
+
+
+
+
