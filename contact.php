@@ -258,12 +258,12 @@ function test_input($data) {
           <div class="col-lg-4 col-md-6">
              <h5 class="text-white mb-3" style="font-size: medium;">Join Our  Newsletter</h5>
              <p class="small text-muted">Tanem quem mulla quae legam multos aute sint culpa<br> legam noster magna</p>
-             <form action="#">
-                <div class="input-group mb-3" style="background-color: white;">
-                   <input class="form-control rounded" type="text" aria-describedby="button-addon2">
-                   <button type="button" class="btn btn-success" id="button-addon2" type="button">Subscribe</button>
-                </div>
-             </form>
+             <div class="input-group mb-3">
+              <input type="text" class="form-control border-right-0 border-dark" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <span class="input-group-text bg-success text-white  border-dark" id="basic-addon2">Subscribe</span>
+              </div>
+            </div>
           </div>
        </div>
     </div>
