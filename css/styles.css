@@ -240,7 +240,6 @@ body
     {
         background-color: rgb(241, 241, 241);
         padding-top: 5%;
-        padding-bottom: 5%;
     }
 
 
@@ -417,12 +416,11 @@ a:hover, a:focus
 /* Our Skills progress bar */
 .skill_div {
     padding-top: 5%;
-    padding-bottom: 5%;
 }
 
 .div-skill
 {
-    width: 90.7%;
+
 }
 
 .progress_bar_bg {
@@ -494,6 +492,9 @@ a:hover, a:focus
 .blog_sidenav_div {
     height: 100px;
 }
+.blog_sidenav_tag {
+    border: 1px solid gray;
+}
 
 .small_pp {
     font-size: 13px;
@@ -501,6 +502,18 @@ a:hover, a:focus
 .blog_sidenav_date {
     font-style: italic;
 }
+/*.page_1:active, .page_1:focus {
+    background-color: #28a745;
+    color: white !important;
+}
+.page_2:active, .page_2:focus {
+    background-color: #28a745;
+    color: white !important;
+}
+.page_3:active, .page_3:focus {
+    background-color: #28a745;
+    color: white !important;
+}*/
 
 
 

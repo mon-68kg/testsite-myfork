@@ -169,3 +169,38 @@ function lightBtn() {
         glass[i].classList.add("d-none");
     }
 }
+
+
+// Blog page pagination
+function pageF1() {
+    let page1 = document.querySelector('.page_1');
+    let page2 = document.querySelector('.page_2');
+    let page3 = document.querySelector('.page_3');
+
+    page1.classList.add('bg-success', 'text-white');
+    page1.classList.remove('text-dark');
+    page2.classList.remove('bg-success', 'text-white');
+    page3.classList.remove('bg-success', 'text-white')
+}
+
+function pageF2() {
+    let page1 = document.querySelector('.page_1');
+    let page2 = document.querySelector('.page_2');
+    let page3 = document.querySelector('.page_3');
+
+    page1.classList.remove('bg-success', 'text-white');
+    page2.classList.add('bg-success', 'text-white');
+    page2.classList.remove('text-dark');
+    page3.classList.remove('bg-success', 'text-white')
+}
+
+function pageF3() {
+    let page1 = document.querySelector('.page_1');
+    let page2 = document.querySelector('.page_2');
+    let page3 = document.querySelector('.page_3');
+
+    page1.classList.remove('bg-success', 'text-white');
+    page2.classList.remove('bg-success', 'text-white');
+    page3.classList.add('bg-success', 'text-white')
+    page3.classList.remove('text-dark');
+}
