@@ -1,0 +1,638 @@
+
+body
+{
+    font-size: .7em;
+    font-family: Arial;
+}
+
+
+/*NAVBAR STYLE*/
+.div-separator
+    {
+        margin-top: 8px;
+        color: rgb(148, 144, 144);
+        margin-left: .5rem;
+        margin-right: .5rem;
+        font-size: small;
+    }
+
+.test-nav-brand
+    {
+        color: #388f32;
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+
+.site-nav-brand
+    {
+        color: #000000;
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+
+.nav-link:active 
+    {
+        color: green !important;
+    }
+
+.nav-link:focus 
+    {
+        color: green !important;
+    }
+
+.nav-link
+    {
+        font-weight: bold;
+    }
+
+.sm-icons 
+    {
+        flex-direction: row;
+    }
+
+@media only screen and (max-width: 992px) 
+    {
+        .sm-icons .nav-item 
+        {
+            padding-right: 1em;
+        }
+    }
+/*NAVBAR STYLE*/
+
+/*BREADCRUMB*/
+.breadcrumb > li + li:before {
+    color: #ccc;
+    content: "/ ";
+    padding: 0 5px;
+}
+
+.div-active-page-title
+{
+    line-height: 2.6rem; 
+    font-size: 1.3em;
+}
+
+.div-breadcrumb
+{
+    line-height: 2.6rem; 
+    font-size: 1.1em;
+}
+  /*BREADCRUMB*/
+
+/*CAROUSEL STYLE*/
+.bg-img
+    {
+        width: 100%;
+        height: 88vh;
+        overflow: hidden;
+    }
+
+.bg-img img
+    {
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        object-fit: cover;
+        position: absolute;
+        margin-bottom: 20px;  
+    }
+
+.carousel-caption
+    {
+        width: 58%;
+        text-align: left;
+        color: #FFFFFF;
+        background: transparent;
+        background-color: rgba(0, 0, 0, 0.616);
+        border-style: solid;
+        border-width: 5px 0 0;
+        border-color: #5cb85c;
+        margin: auto;
+        margin-bottom: 3%;
+        padding: 1%;
+    }
+
+.div-caption-button
+    {
+        border-width: 3px 3px 3px;
+        font-size: 1em;
+        width: 7rem;
+    }
+
+
+.bg-circle-prev
+    {
+        background-color: rgba(37, 36, 36, 0.469);
+        opacity: 0.6;
+        height: 64px !important;
+        width: 64px !important;
+        top: 50% !important;
+        transform: translateY(-50%);
+        border-radius: 50% !important;
+        box-shadow: 0 24px 38px 3px rgb(0 0 0 / 14%), 0 9px 46px 8px rgb(0 0 0 / 12%), 0 11px 15px -7px rgb(0 0 0 / 20%);
+    }
+
+.bg-circle-next 
+    {
+        background-color: rgba(37, 36, 36, 0.469);
+        opacity: 0.6;
+        height: 64px !important;
+        width: 64px !important;
+        top: 50% !important;
+        transform: translateY(-50%);
+        border-radius: 50% !important;
+        box-shadow: 0 24px 38px 3px rgb(0 0 0 / 14%), 0 9px 46px 8px rgb(0 0 0 / 12%), 0 11px 15px -7px rgb(0 0 0 / 20%);
+    }
+
+.div-carousel-indicator .active 
+    {
+        background-color: #4BB543;
+    }
+
+#div-carousel-slide
+    {
+        margin-bottom: -.5rem;
+        height: .7rem;
+        width: .7rem;
+        border-radius: 50%;
+    }
+/*CAROUSEL STYLE*/ 
+
+
+/*Website Description Under the Carousel Image*/
+
+/*services style*/
+.div-services
+    {
+        background-color: #f4f6f8;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+.div-card-img-top
+    {
+        height: 4rem;
+        width: 4rem;
+        justify-content: center;
+    }
+/*services style*/
+
+
+/*Portfolio*/
+.portfolio_btn:focus 
+    {
+        background-color: green;
+        color: white;
+    }
+/*Portfolio*/
+
+
+/*client style*/
+.div-border-green
+{
+    width: 2rem;
+    border: 2px solid;
+    margin-top: -1px;
+}
+
+/*client style*/
+
+
+/*Testimonials style*/
+.testimonials
+    {
+        min-height: 35rem;
+        background-color: rgb(250, 249, 249);
+    }
+
+.div-person-name-title
+{
+    font-size: 1em;
+}
+
+.div-testimonials
+    {
+        width: 86.8%;
+        padding-top: 3%;
+    }
+
+/*Testimonials style*/
+
+
+/*about page*/
+.deep_dropdown 
+    {
+        padding-left: 7%;
+    }
+
+.hr_about 
+    {
+        width: 50px;
+        height: 2px;
+    }
+
+
+.our_team 
+    {
+        text-align: center;
+    }
+
+.our_team_div
+    {
+        background-color: rgb(241, 241, 241);
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+
+/*footer style*/ 
+a:hover, a:focus 
+    {
+        text-decoration: none;
+    }
+  
+.div-form-control 
+    {
+        background: #ffffff;
+        border-color: #5b5959;
+    }
+  
+.div-form-control:focus 
+    {
+        background: #ffffff;
+    }
+    
+.footer-icons 
+    {
+        flex-direction: row;
+    }
+
+.div-footer-bg
+    {
+        background-color: #191818;
+    }
+
+.div-footer
+    {
+        background-color: #000000;
+    }
+
+.footer-icons i 
+{
+    color: #c8c0c0;
+}
+
+.div-bg-footer
+{
+    background-color: #1c1c1c;
+}
+
+.div-footer-bg
+{
+    background-color: #000000;
+}
+    
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook-f {
+    background: #333333;
+    color: white;
+    border-radius: 1.2px;
+    padding: 10%;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .div-instagram {
+    background: #333333;
+    color: white;
+    border-radius: 1.2px;
+    padding: 10%;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .div-twitter {
+    background: #333333;
+    color: white;
+    border-radius: 1.2px;
+    padding: 10%;
+    text-align: center;
+    text-decoration: none;
+  }
+ 
+  .div-linkedin {
+    background: #333333;
+    color: white;
+    border-radius: 1.2px;
+    padding: 10%;
+    text-align: center;
+    text-decoration: none;
+  }
+.div_img1 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.img1 {
+    width: 100vw;
+}
+.div_inside_img1 {
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    right: 20%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, .7);
+    border-style: solid;
+    border-width: 5px 0 0;
+    border-color: #0dd12b;
+}
+.btn_div {
+    display: flex;
+    justify-content: center;
+}
+.btn_1 {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 2px solid #0dd12b;
+    padding: 5px 30px 5px 30px;
+}
+
+
+.two_div {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.fa-check-double {
+    padding-top: 5px;
+}
+.check_p {
+    padding-left: 5px;
+}
+.p_under_check {
+    font-style: italic;
+}
+
+
+.card_div {
+    background-color: rgb(241, 241, 241);
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+
+/* About page */
+/*Eum-Ipsam*/
+.deep_dropdown {
+    padding-left: 7%;
+}
+.hr_about {
+    width: 50px;
+    height: 2px;
+}
+
+.our_team {
+    text-align: center;
+}
+.our_team_div {
+    background-color: rgb(241, 241, 241);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.div-team
+{
+    width: 88%;
+}
+
+.bg-color
+{
+    background-color: #e9e9e9;
+}
+
+
+/* Our Skills progress bar */
+.skill_div {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.div-skill
+{
+    width: 90.7%;
+}
+
+.progress_bar_bg {
+    background-color: lightgray;
+}
+.html_progress {
+    background-color: #4BB543;
+    height: 10px;
+    width: 100%;
+}
+.css_progress {
+    background-color: #4BB543;
+    height: 10px;
+    width: 90%;
+}
+.js_progress {
+    background-color: #4BB543;
+    height: 10px;
+    width: 75%;
+}
+.php_progress {
+    background-color: #4BB543;
+    height: 10px;
+    width: 80%;
+}
+.wpcms_progress {
+    background-color: #4BB543;
+    height: 10px;
+    width: 90%;
+}
+.ps_progress {
+    background-color: #4BB543;
+    height: 10px;
+    width: 55%;
+}
+
+.progress-bar-width
+{
+    width: 88%;
+}
+
+
+/* CLIENTS */
+.clients_div {
+    padding-bottom: 5%;
+}
+.client_card {
+    width: 25%;
+}
+
+
+/* Blog */
+.blog_imgs_div {
+    width: 100%;
+}
+.small_pp {
+    padding-right: 20px;
+}
+.blog_card_icon {
+    padding-top: 5px;
+    padding-right: 7px;
+}
+.side_nav {
+    width: 25%;
+}
+.blog_side_nav_li {
+    list-style-type: none;
+}
+.blog_sidenav_div {
+    height: 100px;
+}
+
+.small_pp {
+    font-size: 13px;
+}
+.blog_sidenav_date {
+    font-style: italic;
+}
+
+
+
+/* Footer */
+.footer {
+    padding-top: 5%;
+}
+.footer_list {
+    list-style-type: none;
+}
+
+
+/* Blog Single */
+.vertical_line {
+    width: 5px;
+    height: 160px
+}
+.vertical_line_text {
+    background-color: #f4f4f4;
+    height: 200px;
+    font-style: italic;
+}
+.comment_img {
+    height: 50px;
+    width: 50px;
+}
+.blogsingle_top_input {
+    width: 50%;
+}
+.blogsingle_input {
+    width: 100%;
+}
+.blogsingle_input_lg {
+    width: 100%;
+}
+.le {
+    font-weight: 450;
+}
+
+
+/* Pricing */
+.div_2 {
+    width: 100%;
+}
+.pricing_card_div {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.card_header {
+    color: #5A5A5A;
+}
+.card_header:active {
+    color: white;
+    background-color: #4BB543;
+}
+.card_header:focus {
+    color: white;
+    background-color: #4BB543;
+}
+.card_header:hover {
+    color: white;
+    background-color: #4BB543;
+    text-decoration: none;
+}
+
+.ribbon_container {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    aspect-ratio: 1 / 1;
+    pointer-events: none;
+}
+.ribbon {
+    width: 110%;
+    height: 10%;
+    rotate: 45deg;
+    position: absolute;
+    right: -41%;
+    top: 9%;
+}
+
+
+.width-pricing
+{
+    width: 100%;
+    background-color: #f3f1f1;
+}
+
+
+/*Frequently asked questions*/
+.faq {
+    width: 100%;
+}
+
+.faq_collapse_div {
+    width: 100%;
+}
+.faq_collapse_btn {
+    width: 100%;
+}
+
+.rotate {
+    transform: rotate(180deg);
+    color: #4BB543;
+}
+.changeColor {
+    color: #4BB543;
+}
+.faq_collapse_btn:focus, .faq_collapse_btn:active {
+    outline:  none !important;
+    box-shadow: none;
+}
+
+
+/* Portfolio  */
+.img_column {
+    width: 33%;
+}
+.portfolio_btn:focus {
+    background-color: green;
+    color: white;
+}
+
+.img-width
+{
+    width: 92.2%;
+}
+
+
+
+
+
+
