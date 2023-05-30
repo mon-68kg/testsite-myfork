@@ -180,7 +180,9 @@ function pageF1() {
     page1.classList.add('bg-success', 'text-white');
     page1.classList.remove('text-dark');
     page2.classList.remove('bg-success', 'text-white');
+    page2.classList.add('text-dark');
     page3.classList.remove('bg-success', 'text-white')
+    page3.classList.add('text-dark');
 }
 
 function pageF2() {
@@ -189,9 +191,11 @@ function pageF2() {
     let page3 = document.querySelector('.page_3');
 
     page1.classList.remove('bg-success', 'text-white');
+    page1.classList.add('text-dark');
     page2.classList.add('bg-success', 'text-white');
     page2.classList.remove('text-dark');
     page3.classList.remove('bg-success', 'text-white')
+    page3.classList.add('text-dark');
 }
 
 function pageF3() {
@@ -200,7 +204,9 @@ function pageF3() {
     let page3 = document.querySelector('.page_3');
 
     page1.classList.remove('bg-success', 'text-white');
+    page1.classList.add('text-dark');
     page2.classList.remove('bg-success', 'text-white');
+    page2.classList.add('text-dark');
     page3.classList.add('bg-success', 'text-white')
     page3.classList.remove('text-dark');
 }
