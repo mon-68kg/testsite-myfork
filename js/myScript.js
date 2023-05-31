@@ -170,7 +170,6 @@ function lightBtn() {
     }
 }
 
-
 // Blog page pagination
 function pageF1() {
     let page1 = document.querySelector('.page_1');

@@ -1,7 +1,7 @@
 
 body
 {
-    font-size: .7em;
+    font-size: .8em;
     font-family: Arial;
 }
 
@@ -9,7 +9,7 @@ body
 /*NAVBAR STYLE*/
 .div-separator
     {
-        margin-top: 8px;
+        margin-top: 6.6px;
         color: rgb(148, 144, 144);
         margin-left: .5rem;
         margin-right: .5rem;
@@ -97,7 +97,7 @@ body
         margin-bottom: 20px;  
     }
 
-.carousel-caption
+.div-carousel
     {
         width: 58%;
         text-align: left;
@@ -124,9 +124,9 @@ body
     {
         background-color: rgba(37, 36, 36, 0.469);
         opacity: 0.6;
-        height: 64px !important;
-        width: 64px !important;
-        top: 50% !important;
+        height: 50px !important;
+        width: 52px !important;
+        top: 52% !important;
         transform: translateY(-50%);
         border-radius: 50% !important;
         box-shadow: 0 24px 38px 3px rgb(0 0 0 / 14%), 0 9px 46px 8px rgb(0 0 0 / 12%), 0 11px 15px -7px rgb(0 0 0 / 20%);
@@ -136,8 +136,8 @@ body
     {
         background-color: rgba(37, 36, 36, 0.469);
         opacity: 0.6;
-        height: 64px !important;
-        width: 64px !important;
+        height: 52px !important;
+        width: 52px !important;
         top: 50% !important;
         transform: translateY(-50%);
         border-radius: 50% !important;
@@ -187,7 +187,7 @@ body
 
 
 /*client style*/
-.div-border-green
+.hr-indicator
 {
     width: 2rem;
     border: 2px solid;
@@ -198,22 +198,20 @@ body
 
 
 /*Testimonials style*/
-.testimonials
+.div-testimonials
     {
-        min-height: 35rem;
         background-color: rgb(250, 249, 249);
     }
+
+.fa-xl
+{
+   color: #edecec;
+}
 
 .div-person-name-title
 {
     font-size: 1em;
 }
-
-.div-testimonials
-    {
-        width: 86.8%;
-        padding-top: 3%;
-    }
 
 /*Testimonials style*/
 
@@ -265,11 +263,6 @@ a:hover, a:focus
         flex-direction: row;
     }
 
-.div-footer-bg
-    {
-        background-color: #191818;
-    }
-
 .div-footer
     {
         background-color: #000000;
@@ -280,12 +273,14 @@ a:hover, a:focus
     color: #c8c0c0;
 }
 
-.div-bg-footer
+
+
+.div-footer
 {
     background-color: #1c1c1c;
 }
 
-.div-footer-bg
+.footer-div
 {
     background-color: #000000;
 }
@@ -294,41 +289,16 @@ a:hover, a:focus
     opacity: 0.7;
 }
 
-.fa-facebook-f {
+.fa_style {
     background: #333333;
     color: white;
     border-radius: 1.2px;
-    padding: 10%;
     text-align: center;
     text-decoration: none;
   }
 
-  .div-instagram {
-    background: #333333;
-    color: white;
-    border-radius: 1.2px;
-    padding: 10%;
-    text-align: center;
-    text-decoration: none;
-  }
 
-  .div-twitter {
-    background: #333333;
-    color: white;
-    border-radius: 1.2px;
-    padding: 10%;
-    text-align: center;
-    text-decoration: none;
-  }
- 
-  .div-linkedin {
-    background: #333333;
-    color: white;
-    border-radius: 1.2px;
-    padding: 10%;
-    text-align: center;
-    text-decoration: none;
-  }
+
 .fa-check-double {
     padding-top: 5px;
 }
@@ -366,10 +336,6 @@ a:hover, a:focus
     padding-bottom: 5%;
 }
 
-.div-team
-{
-    width: 88%;
-}
 
 .bg-color
 {
@@ -380,11 +346,6 @@ a:hover, a:focus
 /* Our Skills progress bar */
 .skill_div {
     padding-top: 5%;
-}
-
-.div-skill
-{
-
 }
 
 .progress_bar_bg {
@@ -466,18 +427,6 @@ a:hover, a:focus
 .blog_sidenav_date {
     font-style: italic;
 }
-/*.page_1:active, .page_1:focus {
-    background-color: #28a745;
-    color: white !important;
-}
-.page_2:active, .page_2:focus {
-    background-color: #28a745;
-    color: white !important;
-}
-.page_3:active, .page_3:focus {
-    background-color: #28a745;
-    color: white !important;
-}*/
 
 
 
@@ -607,6 +556,13 @@ a:hover, a:focus
 {
     width: 92.2%;
 }
+
+
+
+
+
+
+
 
 
 
