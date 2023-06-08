@@ -61,8 +61,7 @@
            <ul class="navbar-nav fa-expand-lg sm-icons">
                <li class="nav-item">
                    <a class="nav-link" href="#">
-                       <i class="fa-brands fa-twitter"></i>
-                       </i>
+                       <i class="fa-brands fa-twitter"></i>                     
                    </a>
                </li>
                <li class="nav-item">
@@ -108,7 +107,6 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
-    </body>
     <script src="https://kit.fontawesome.com/ccb46faed6.js" crossorigin="anonymous"></script>
 
 
@@ -235,12 +233,6 @@ function test_input($data) {
 <div class="d-flex justify-content-center">
     <button type="submit" class="btn btn-outline-success text-white bg-success">Send Message  </button>
 </div>
-</form>
-
-  </div>
-
-
-
   <div class="container text-success">
     <?php
       if ($complete == 4) {
@@ -257,8 +249,8 @@ function test_input($data) {
         <div class="row gy-4 gx-5">
             <div class="col-lg-4 col-md-6 col-sm-6 col-6">
                 <h6 class="text-white">COMPANY</h6>
-                <Phone: class="text-secondary"><p>A108 Adam Street <br> New Yor, NY 535022 <br> United States <br>
-                    <br>Phone: +1 5589 55488 55 <br> Email: info@example.com </p></Phone:>
+                <phone: class="text-secondary"><p>A108 Adam Street <br> New Yor, NY 535022 <br> United States <br>
+                    <br>Phone: +1 5589 55488 55 <br> Email: info@example.com </p></phone:>
             </div>
 
 
@@ -310,7 +302,7 @@ function test_input($data) {
 
 
             <div class="col-lg-2 col-md-6 col-sm-6 col-6">
-                <h6 class="text-white mb-3"">Our Services</h6>
+                <h6 class="text-white mb-3">Our Services</h6>
                 <ul class="list-unstyled text-muted">
                     <li>
                         <a href="#">
