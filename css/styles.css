@@ -237,7 +237,6 @@ body
 .our_team_div
     {
         background-color: rgb(241, 241, 241);
-        padding-top: 5%;
     }
 
 
@@ -344,10 +343,6 @@ a:hover, a:focus
 
 
 /* Our Skills progress bar */
-.skill_div {
-    padding-top: 5%;
-}
-
 .progress_bar_bg {
     background-color: lightgray;
 }
