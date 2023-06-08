@@ -179,7 +179,7 @@
             }
             ?>
         <div class="container pb-4 div-form">
-            <form method="post" class="pb-4  shadow m-auto">
+            <form method="post" class="pb-4 p-4 shadow m-auto">
                 <div class="form-row">
                     <div class="form-group col-md-6 col-sm-6">
                         <input name="name" type="text" value="<?php
@@ -207,13 +207,11 @@
                     <span class="error text-danger"><?php echo $subjectErr;?></span>
                 </div>
                 <div class="form-group">
-                    <textarea name="message" class="form-control" rows="5" id="comment" placeholder="Massage">
-                    <?php
-                        if (isset($_POST["message"]) && $complete != 4) {
-                            echo $message;
-                        }
-                        ?>
-                    </textarea>
+                <textarea name="message" value="<?php
+					if (isset($_POST["message"]) && $complete != 4) {
+						echo $message;
+					}
+				?>" class="form-control" rows="5" id="comment" placeholder="Message"></textarea>
                     <span class="error text-danger"><?php echo $messageErr;?></span>
                 </div>
                 <div class="d-flex justify-content-center">

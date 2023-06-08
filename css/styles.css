@@ -181,8 +181,6 @@ body
 .div-services
     {
         background-color: #f4f6f8;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
     }
 .div-card-img-top
     {
@@ -278,16 +276,11 @@ a:hover, a:focus
         flex-direction: row;
     }
 
-.div-footer
-    {
-        background-color: #000000;
-    }
 
 .footer-icons i 
 {
     color: #c8c0c0;
 }
-
 
 
 .div-footer
