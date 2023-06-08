@@ -390,7 +390,12 @@ a:hover, a:focus
 .client_card {
     width: 25%;
 }
-
+.client1, .client2, .client3, .client4, .client5, .client6, .client7, .client8 {
+    transition: .2s;
+}
+.client1:hover, .client2:hover, .client3:hover, .client4:hover, .client5:hover, .client6:hover, .client7:hover, .client8:hover {
+    transform: scale(1.5);
+}
 
 /* Blog */
 .blog_imgs_div {
