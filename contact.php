@@ -105,8 +105,8 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15329.254440719122!2d119.97067284870168!3d16.152769852619773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3393dcce6b855bc1%3A0x5e83d788b8e10269!2sPoblacion%2C%20Alaminos%2C%20Pangasinan!5e0!3m2!1sen!2sph!4v1683604336340!5m2!1sen!2sph" width="100%" height="400" frameborder="1"></iframe>
             </div>
         </section>
-        <div class="container div-contact pb-4 pt-4">
-            <div class="pt-4 pb-4 shadow mt-3 mb-4">
+        <div class="container div-contact pb-5 pt-5">
+            <div class="shadow">
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="card border-0 rounded-0 h-100">
@@ -178,8 +178,8 @@
               return $data;
             }
             ?>
-        <div class="container pb-4 div-form">
-            <form method="post" class="pb-4 p-4 shadow m-auto">
+        <div class="container pb-5 div-form">
+            <form method="post" class="p-4 shadow m-auto">
                 <div class="form-row">
                     <div class="form-group col-md-6 col-sm-6">
                         <input name="name" type="text" value="<?php
@@ -227,8 +227,8 @@
             </form>
         </div>
         <!-- FOOTER -->
-        <footer class="pt-3 flex-shrink-0 div-footer mt-4">
-            <div class="container py-4 text-lg-left text-sm-left">
+        <footer class="flex-shrink-0 div-footer">
+            <div class="container pt-5 pb-5 py-4 text-lg-left text-sm-left">
                 <div class="row gy-4 gx-5">
                     <div class="col-lg-4 col-md-6 col-sm-6 col-6">
                         <h6 class="text-white">COMPANY</h6>
@@ -333,7 +333,7 @@
                 </div>
             </div>
         </footer>
-        <div class="footer-div p-2">
+        <div class="footer-div p-3">
             <div class="container mt-0 text-white">
                 <div class="row">
                     <div class="col-lg-6 pt-2">@Copyright TestSite. All Rights Reserve</div>

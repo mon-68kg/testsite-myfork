@@ -243,16 +243,6 @@ body
     }
 
 
-.our_team 
-    {
-        text-align: center;
-    }
-
-.our_team_div
-    {
-        background-color: rgb(241, 241, 241);
-    }
-
 
 /*footer style*/ 
 a:hover, a:focus 
@@ -339,9 +329,7 @@ a:hover, a:focus
     text-align: center;
 }
 .our_team_div {
-    background-color: rgb(241, 241, 241);
-    padding-top: 5%;
-    padding-bottom: 5%;
+    background-color: rgb(233, 233, 233);
 }
 
 
