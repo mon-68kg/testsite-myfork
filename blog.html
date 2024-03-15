@@ -29,8 +29,8 @@
                     <div class="nav-item dropdown">
                         <a class="nav-link font-weight-bold dropdown-toggle text-dark" data-toggle="dropdown" href="#">ABOUT</a>
                         <div class="dropdown-menu dropright border-0">
-                            <a class="dropdown-item" href="About.html">About Us</a>
-                            <a class="dropdown-item" href="Team.html">Team</a>
+                            <a class="dropdown-item" href="about.html">About Us</a>
+                            <a class="dropdown-item" href="team.html">Team</a>
                             <a class="dropdown-item" href="testimonials.html">Testimonials</a>
                             <a class="dropdown-item dropdown-toggle" data-toggle="dropdown" href="#">Deep Drop Down</a>
                             <div class="dropdown-menu border-0">
